@@ -1,0 +1,11 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+
+:root{
+    --laranja-fundo: #ff5e20
+}
+
+body{
+    background-color: var(--laranja-fundo);
+    font-family: 'Outfit', sans-serif;
+}

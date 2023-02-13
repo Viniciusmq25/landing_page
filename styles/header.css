@@ -1,0 +1,46 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__imagem{
+    width: 13%;
+    margin-left: 1em;
+}
+
+.header__botao, .banner__botao{ 
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: .7em;
+    border-radius: 8px;
+}
+
+.header__botao{
+    margin: .4em;
+}
+
+.header__texto{
+    display: none;
+}
+
+@media screen and (min-width:1200px){
+    .header__imagem{
+        width: 5%;
+    }
+
+    .header__texto{
+        display: flex;
+        margin-left: 65%;
+    }
+
+    .header__lista{
+        color: white;
+        font-weight: 400;
+        margin: 1.5em .5em;
+    }
+
+}
